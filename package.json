@@ -1,0 +1,31 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "description": "test heroku server",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngaivoronski/node-api4-project.git"
+  },
+  "keywords": [
+    "test",
+    "heroku",
+    "server"
+  ],
+  "author": "ng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngaivoronski/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/ngaivoronski/node-api4-project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
